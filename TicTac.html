@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+<head>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/tictac.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/tictac.js"></script>
+
+  <title>Tic-Tac-Toe</title>
+</head>
+<body onload="startGame();">
+  <h1 class="text-center">Tic-Tac-Toe</h1>
+  <div id="messages">messages will go here</div>
+  <!--Player Names-->
+  <div id= "player1">Player 1: </div>
+  <div id = "player2">Player 2: </div>
+<!--Winner-->
+  <h2 id="winner"></h2>
+<!--Game table-->
+  <div class="container">
+    <table class="table table-bordered table-responsive">
+      <tr>
+        <td class="field" id="f1" onclick="nextMove(this);"><a href="#"></a></td>
+        <td class="field" id="f2" onclick="nextMove(this);"><a href="#"></a></td>
+        <td class="field" id="f3" onclick="nextMove(this);"><a href="#"></a></td>
+      </tr>
+
+      <tr>
+        <td class="field" id="f4" onclick="nextMove(this);"><a href="#"></a></td>
+        <td class="field" id="f5" onclick="nextMove(this);"><a href="#"></a></td>
+        <td class="field" id="f6" onclick="nextMove(this);"><a href="#"></a></td>
+      </tr>
+
+      <tr>
+        <td class="field" id="f7" onclick="nextMove(this);"><a href="#"></a></td>
+        <td class="field" id="f8" onclick="nextMove(this);"><a href="#"></a></td>
+        <td class="field" id="f9" onclick="nextMove(this);"><a href="#"></a></td>
+      </tr>
+    </table>
+  </div>
+<!--button to restart game-->
+  <div class="text-center">
+    <a href="tictachome.html">
+    <button type="button" class="btn btn-default">Start a New Game</button>
+    </a>
+  </div>
+
+</body>
+</html>
