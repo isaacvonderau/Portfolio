@@ -1,0 +1,28 @@
+table {
+  height: 80%;
+  width: 80%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#player1 {
+  float: left;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+#player2 {
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+
+.field {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
